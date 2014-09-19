@@ -1,0 +1,18 @@
+{
+  "type": "openstack",
+  "username": "admin",
+  "password": "admin",
+  "provider": "openstack",
+  "ssh_username": "admin",
+  "image_name": "TestImage",
+  "floating_ip": "10.10.1.2",
+  "use_floating_ip" : true,
+  "floating_ip_pool": "",
+  "source_image": "<uuid>",
+  "flavor": "2",
+  "networks" : [
+    "<uuidd>",
+  ],
+  "project": "admin",
+  "tenant_id": "<uuid>"
+}
